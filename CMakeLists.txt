@@ -1,0 +1,15 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.28.3 FATAL_ERROR)
+
+SET(CMAKE_CXX_STANDARD 23)
+SET(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+PROJECT(UNIVERSITY)
+
+ADD_EXECUTABLE(
+    UNIVERSITY main.cpp
+    Student.cpp
+    Student.h
+    University.cpp 
+    University.h
+    List.h
+)
